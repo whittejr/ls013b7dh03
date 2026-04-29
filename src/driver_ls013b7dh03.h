@@ -1,6 +1,6 @@
 /**
  * @file driver_ls013b7dh03.h
- * @brief  ls013b7dh03 display driver core
+ * @brief  LS013B7DH03 display driver core
  * @version 1.0.0
  * @author Alessandro Davi
  * @date 2026-04-21
@@ -35,7 +35,7 @@ typedef struct ls013b7dh03_handle_s
 } ls013b7dh03_handle_t;
 
 /**
- * @brief ls013b7dh03 linkers
+ * @brief Macros for linking hardware interface functions
  */
 #define DRIVER_LS013B7DH03_LINK_INIT(HANDLE, STRUCTURE)    memset(HANDLE, 0, sizeof(STRUCTURE))
 #define DRIVER_LS013B7DH03_LINK_SPI_WRITE(HANDLE, FUC)     (HANDLE)->spi_write = FUC

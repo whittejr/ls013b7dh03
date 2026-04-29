@@ -13,7 +13,6 @@ static ls013b7dh03_handle_t gs_handle;
 uint8_t ls013b7dh03_basic_init(const uint8_t *fb_pointer) {
     if (fb_pointer == NULL) return 1;
 
-    // Link interface functions
     DRIVER_LS013B7DH03_LINK_INIT(&gs_handle, ls013b7dh03_handle_t);
     DRIVER_LS013B7DH03_LINK_SPI_WRITE(&gs_handle, ls013b7dh03_interface_spi_write);
     DRIVER_LS013B7DH03_LINK_CS_CONTROL(&gs_handle, ls013b7dh03_interface_cs_control);

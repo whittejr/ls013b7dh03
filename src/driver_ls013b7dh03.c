@@ -1,6 +1,6 @@
 /**
  * @file driver_ls013b7dh03.c
- * @brief  ls013b7dh03 display driver core implementation
+ * @brief  LS013B7DH03 display driver core implementation
  * @version 1.0.0
  * @author Alessandro Davi
  * @date 2026-04-21

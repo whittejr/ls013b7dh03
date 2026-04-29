@@ -1,6 +1,6 @@
 /**
  * @file driver_ls013b7dh03_basic.h
- * @brief  High-level basic example for ls013b7dh03
+ * @brief  High-level basic example for LS013B7DH03
  * @version 1.0.0
  * @author Alessandro Davi
  * @date 2026-04-21

@@ -1,6 +1,6 @@
 /**
 * @file    gfx.c
-* @brief   none
+* @brief   Graphics extension implementation
 * @version 0.1.0
 * @author  Alessandro Davi
 * @date    2026-04-21
@@ -41,7 +41,7 @@ void gfx_draw_pixel(gfx_context_t *ctx, uint16_t x, uint16_t y, uint8_t color) {
     if (x >= ctx->width || y >= ctx->height) return;
 
     uint16_t byte_index = (y * (ctx->width / 8)) + (x / 8);
-    uint8_t bit_mask = 1 << (7 - (x % 8)); // Assumindo MSB-first dentro do byte
+    uint8_t bit_mask = 1 << (7 - (x % 8)); // Assuming MSB-first within the byte
 
     uint8_t actual_color = ctx->inverted ? !color : color;
 

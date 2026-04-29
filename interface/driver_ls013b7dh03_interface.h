@@ -1,6 +1,6 @@
 /**
  * @file driver_ls013b7dh03_interface.h
- * @brief  ls013b7dh03 interface template
+ * @brief  LS013B7DH03 hardware interface template
  * @version 1.0.0
  * @author Alessandro Davi
  * @date 2026-04-21

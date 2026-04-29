@@ -1,6 +1,6 @@
 /**
  * @file shmfonts.h
- * @brief  none
+ * @brief  Bitmap fonts for the graphics extension
  * @version 0.1
  * @author Alessandro Davi
  * @date 2026-01-27

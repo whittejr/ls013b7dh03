@@ -1,6 +1,6 @@
 /**
  * @file driver_ls013b7dh03_interface.c
- * @brief  ls013b7dh03 interface implementation for STM32
+ * @brief  LS013B7DH03 interface implementation for STM32
  * @version 1.0.0
  * @author Alessandro Davi
  * @date 2026-04-21

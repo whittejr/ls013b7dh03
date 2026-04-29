@@ -1,6 +1,6 @@
 /**
  * @file gfx.h
- * @brief  none
+ * @brief  Graphics extension header
  * @version 0.1
  * @author Alessandro Davi
  * @date 2026-04-21
@@ -13,10 +13,10 @@
 #include <stdint.h>
 
 typedef struct {
-    uint8_t *buffer;      // Ponteiro para o array no main.c
+    uint8_t *buffer;      /**< Pointer to the frame buffer */
     uint16_t width;
     uint16_t height;
-    uint8_t inverted;     // Útil para displays Sharp onde 1 é branco
+    uint8_t inverted;     /**< Invert colors (useful for Sharp memory LCDs where 1 is white) */
 } gfx_context_t;
 
 void gfx_init(gfx_context_t *ctx, uint8_t *buffer, uint16_t w, uint16_t h, uint8_t inverted);
